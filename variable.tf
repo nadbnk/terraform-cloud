@@ -10,11 +10,11 @@ variable "instance-type" {
   type        = string
   description = "instancetype for ec2"
 }
-/* variable "access_key" {
-    type = string
-    description = "aws-access-key"
+variable "access_key" {
+  type        = string
+  description = "aws-access-key"
 }
 variable "secret_key" {
-    type = string
-    description = "aws-secret-key"
-} */
+  type        = string
+  description = "aws-secret-key"
+}
