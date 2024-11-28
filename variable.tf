@@ -1,12 +1,12 @@
-variable "ami_id" {
+variable "ami-id" {
   type        = string
   description = "ec2-ami-id"
 }
-variable "availability_zone" {
+variable "availability-zone" {
   type        = string
   description = "zone for instance"
 }
-variable "instance_type" {
+variable "instance-type" {
   type        = string
   description = "instancetype for ec2"
 }
